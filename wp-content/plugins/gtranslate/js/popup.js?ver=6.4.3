@@ -96,7 +96,7 @@
     widget_code += '<a href="#" class="gt_switcher-popup glink nturl notranslate">';
 
     var arrow_down = '<span style="color:#666;font-size:8px;font-weight:bold;">&#9660;</span>';
-    widget_code += '<img src="'+get_flag_src(current_lang)+'" height="'+flag_size+'" width="'+flag_size+'" alt="'+current_lang+'" /> <span>'+lang_array[current_lang]+'</span>'+arrow_down+'</a>';
+    widget_code += '<span>'+lang_array[current_lang]+'</span>'+arrow_down+'</a>';
 
     widget_code += '<div class="gt_black_overlay"></div>';
     widget_code += '<div class="gt_white_content notranslate">';
@@ -109,12 +109,6 @@
         current_lang == lang && el_a.classList.add('gt-current-lang');
         el_a.setAttribute('data-gt-lang', lang);
 
-        var el_img = document.createElement('img');
-        el_img.height = el_img.width = flag_size;
-        el_img.alt = lang;
-        el_img.setAttribute('data-gt-lazy-src', get_flag_src(lang));
-
-        el_a.appendChild(el_img);
         el_a.innerHTML += ' <span>' + lang_array[lang] + '</span>';
 
         widget_code += el_a.outerHTML;
