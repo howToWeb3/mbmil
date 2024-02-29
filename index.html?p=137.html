@@ -276,11 +276,17 @@
         }
 
         .has-luminous-vivid-orange-background-color {
-            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            background-color: black;
+            border: 1px solid var(--wp--preset--color--vivid-red);
+            color: var(--wp--preset--color--white);
+            orange) !important;
         }
 
         .has-luminous-vivid-amber-background-color {
-            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            background-color: black;
+            border: 1px solid var(--wp--preset--color--vivid-red);
+            color: var(--wp--preset--color--white);
+            orange) !important;
         }
 
         .has-light-green-cyan-background-color {
@@ -560,7 +566,9 @@
         }
 
         .button:hover {
-            background-color: var(--wp--preset--color--luminous-vivid-orange);
+            background-color: black;
+            border: 1px solid var(--wp--preset--color--vivid-red);
+            color: var(--wp--preset--color--white);
         }
 
         .footer {
@@ -689,7 +697,10 @@
         }
 
         .reg:hover {
-            background-color: var(--wp--preset--color--luminous-vivid-orange);
+            background-color: black;
+            border: 1px solid var(--wp--preset--color--vivid-red);
+            color: var(--wp--preset--color--white);
+            orange);
             /* Darker shade for hover */
         }
 
@@ -892,10 +903,13 @@
                                             border-radius: 5px;
                                             cursor: pointer;
                                             text-decoration: none;
+                                            transition: all 0.3s ease;
                                         }
 
                                         .button:hover {
-                                            background-color: var(--wp--preset--color--luminous-vivid-orange);
+                                            background-color: black;
+                                            color: white;
+                                            border: 1px solid red;
                                         }
 
                                         .footer {
@@ -933,73 +947,58 @@
 
 
                                         <h2>Token Details:</h2>
-                                        <p><strong>Issuing Account:</strong> rLV1d3oPf6rg8wUZLYdGCzXoVWsAhz5TSX</p>
+                                        <p><strong>Issuing XRPL Account:</strong> rPjjyCoEzcymxuXBBPfA9w7TrMAFzTeXk6</p>
+                                        <p><strong>Issuing XAH Account:</strong> rPjjyCoEzcymxuXBBPfA9w7TrMAFzTeXk6</p>
                                         <p><strong>Name:</strong> MoonboiMilita</p>
-                                        <p><strong>Ticker:</strong> MBMIL</p>
-                                        <p><strong>Currency (HEX-Code):</strong>
-                                            4D42353839000000000000000000000000000000</p>
-                                        <p><strong>Supply:</strong> 100,000,000,000 (100 billion tokens)</p>
-                                        <a href="https://xrpl.to/trustset/MoonboiMilita" target="_blank" rel="follow"
-                                            class="button">Add Trustline</a>
-                                        <a href="https://coolscreeners.net/ADMachine/ADChecker/MBMIL/" target="_blank"
-                                            rel="follow" class="button">Check Airdrop</a>
+                                        <p><strong>Ticker:</strong> $MBMIL</p>
+                                        <p><strong>Currency XRPL (HEX-Code):</strong>
+                                            4D424D494C000000000000000000000000000000</p>
+                                        <p><strong>Currency XAH (HEX-Code):</strong>
+                                            4D424D494C000000000000000000000000000000</p>
+                                        <p><strong>XRPL & XAH Supply:</strong> 100,000,000,589 (billion tokens)</p>
+                                        <a href="https://xrpl.services/?issuer=rPjjyCoEzcymxuXBBPfA9w7TrMAFzTeXk6&currency=4D424D494C000000000000000000000000000000&limit=100000000589"
+                                            target="_blank" rel="follow" class="button">Add XRPL Trustline</a>
+                                        <a href="https://xahau.services/?issuer=rPjjyCoEzcymxuXBBPfA9w7TrMAFzTeXk6&currency=4D424D494C000000000000000000000000000000&limit=100000000589"
+                                            target="_blank" rel="follow" class="button">Add XRPL Trustline</a>
 
                                         <!-- <a href="https://xrpl.to/token/MoonboiMilita/trustlines" target="_blank"
                                             rel="follow" class="button">$MBMIL Richlist</a> -->
                                         <p>The issuing account is blackholed so no more tokens can be issued nor
                                             holders' wallets frozen.</p>
-                                        <a href="https://xrpscan.com/account/rLV1d3oPf6rg8wUZLYdGCzXoVWsAhz5TSX"
+                                        <a href="https://xrpscan.com/account/rPjjyCoEzcymxuXBBPfA9w7TrMAFzTeXk6"
                                             class="button" rel="nofollow">XRPscan</a>
-                                        <a href="https://bithomp.com/explorer/rLV1d3oPf6rg8wUZLYdGCzXoVWsAhz5TSX"
-                                            class="button" rel="nofollow">Bithomp</a>
+                                        <a href="https://xahscan.com/account/rPjjyCoEzcymxuXBBPfA9w7TrMAFzTeXk6"
+                                            class="button" rel="nofollow">XAHscan</a>
 
                                         <h2>Tokenomics:</h2>
                                         <ul>
-                                            <li>Prime Movers 7%</li>
-                                            <li>Big bang marketing 3%</li>
-                                            <li>General Airdrop 70%</li>
-                                            <li>XRdoge Bonus: 5% weighted by holdings on day of Airdrop</li>
-                                            <li>Bonus Gift Airdrop 15%
-                                                <ul>
-                                                    <li>Tier 1: Top 15 Moonbois 1.5% - 100 million tokens each</li>
-                                                    <li>Tier 2: Next 100 Moonbois 5% - 50 million tokens each</li>
-                                                    <li>Tier 3: Next 250 Moonbois 5% - 20 million tokens each</li>
-                                                    <li>Competitions: 3.5%
-                                                        <ul>
-                                                            <li>Big Competitions 1.25% 10 competitions, 125 million
-                                                                tokens per competition</li>
-                                                            <li>Quest 2% & other competitions</li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
+                                            <li>Leaders 3% - 3b</li>
+                                            <li>Marketing, Quest/Contest, & Competitions 3% - 3b</li>
+                                            <li>Performance 4% - 4b</li>
+                                            <li>MoonChain & Airdrop Automatic Escrow Locks 90%</li>
+                                            <ul>
+                                                <li>Community OG AirDrop 1: 90 Days - 10b Evenly Split Between All
+                                                    Trustlines</li>
+                                                <li>Community OG AirDrop 2: 180 Days - 10b Evenly Split Between All
+                                                    Trustlines</li>
+                                                <li>Public AirDrop 1: 270 Days - 10b Evenly Split Between All Trustlines
+                                                </li>
+                                                <li>MoonChain Launch: 999 Days - 60b Evenly Split Between All Trustlines
+                                                </li>
+                                            </ul>
                                             </li>
                                         </ul>
 
-                                        <h2>Airdrop Timeline:</h2>
-                                        <p>Big bang launch phase is from Thursday 14th December to Sunday 4th February
-                                            2024.</p>
-                                        <ul>
-                                            <li>Saturday 30th December 2023 - Main Airdrop and XRdoge bonus + completed
-                                                competitions.</li>
-                                            <li>Saturday 6th January 2024 - Bonus airdrop + Quest + other competitions
-                                            </li>
-                                            <li>Sunday 4th February 2024 - End of Big Bang Phase</li>
-                                        </ul>
                                         <p>No tokens will be issued in advance even to competition winners. The market
                                             begins with the first airdrop.</p>
                                         <p>Farmers bot in operation. Eligibility can be checked.</p>
-                                        <p>The XRdoge airdrop will not include CEx e.g., Bitrue.</p>
                                         <p>The airdrop will be final. If anyone has set up their trustline incorrectly,
                                             or not checked their eligibility with the farmer bot, nothing more can be
                                             done.</p>
-                                        <p>Bonus Gift Airdrop is subjective and the decision of the prime movers.</p>
+
                                         <h3>Disclaimer</h3>
-                                        <p>MBMIL should not be viewed or acquired as an investment,
-                                            should not be perceived as an investment opportunity. Do not
-                                            put in what you cannot afford to lose. With MBMIL, there is only
-                                            an expectation of fun from the memes of oneself and others.
-                                            Remember: There are inherent risks to crypto trading and for
-                                            this reason do not put in what you cannot afford lose</p>
+                                        <p>$MBMIL is a tokenized representation of the MoonboiMilitia's Community &
+                                            Technological Development.</p>
 
                                         <!-- Button links -->
 
@@ -1011,7 +1010,7 @@
 
 
                                     <div class="footer">
-                                        <p>MBMIL: Decentralised Ideation. No Influencers, No Kings, We Love Devs.</p>
+                                        <p>$MBMIL: Decentralised Memetics. No Influencers, No Kings, We Love Devs.</p>
                                     </div>
 
                                 </body>
