@@ -1,0 +1,24 @@
+[[ISSUERS]]
+address = "rPjjyCoEzcymxuXBBPfA9w7TrMAFzTeXk6"
+name = "MBMIL"
+
+[[TOKENS]]
+issuer = "rPjjyCoEzcymxuXBBPfA9w7TrMAFzTeXk6"
+currency = "4D424D494C000000000000000000000000000000"
+name = "MBMIL"
+desc = "MoonboiMilita is a meme token created on the XRP Ledger and Xahau Network with the purpose of keeping the original MB589 Ethos and Values ALIVE."
+icon = "https://cdn.jsdelivr.net/gh/moonboi589/assets/images/png/logo/MBMIL_logo.png"
+
+[[TOKENS.WEBLINKS]]
+url = "http://moonboimilitia.com/"
+type = "website"
+title = "Official Website"
+
+[[TOKENS.WEBLINKS]]
+url = "http://moonboimilitia.com/"
+type = "website"
+title = "Token Info Dashboard"
+
+[[TOKENS.WEBLINKS]]
+url = "https://twitter.com/moonboimilitia"
+type = "socialmedia"
