@@ -13,6 +13,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: Change Directory
+        run: cd /root/mbmil
+
       - name: Pull Latest Changes
         run: git pull origin main
 
