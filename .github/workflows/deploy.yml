@@ -1,23 +1,23 @@
 name: Deploy to NGINX
 
 on:
-  push:
-    branches:
-      - main
+    push:
+        branches:
+            - main
 
 jobs:
-  deploy:
-    runs-on: self-hosted
+    deploy:
+        runs-on: self-hosted
 
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
+        steps:
+            - name: Checkout Repository
+              uses: actions/checkout@v2
 
-      - name: Change Directory
-        run: cd /root/mbmil
+            - name: Pull Latest Changes
+              run: |
+                  cd /root/mbmil
+                  ls -la
+                  git pull origin main
 
-      - name: Pull Latest Changes
-        run: git pull origin main
-
-      - name: Restart NGINX
-        run: sudo systemctl restart nginx
+            - name: Restart NGINX
+              run: sudo systemctl restart nginx
